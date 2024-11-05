@@ -1,0 +1,8 @@
+/* Add this to your CSS if you're not using Tailwind */
+.like-button.liked {
+    background-color: red;
+}
+
+.like-button.not-liked {
+    background-color: gray;
+}

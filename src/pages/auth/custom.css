@@ -1,0 +1,19 @@
+.ticker {
+    position: absolute;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.8);
+    animation: fadeInOut 5s infinite;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,35 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+.slide-track {
+    display: flex;
+    animation: scroll 250s linear infinite;
+}
+
+.slide {
+    width: 200px;
+    /* Adjust width as needed */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
